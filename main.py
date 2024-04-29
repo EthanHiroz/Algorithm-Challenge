@@ -1,5 +1,7 @@
+#This code is a loose mimic of a job application for Chick-fil-A
 print("Welcome to the Chick-Fil-A job application")
 
+#Asking for your hours per week you want to work, any job experience, and possession of a Food Handlers Permit 
 hours = input("How many hours are you looking for? (10-20, 20-30, 30-40) ")
 
 if hours == "10-20":
@@ -13,6 +15,7 @@ if hours == "30-40":
     
 permit = input("Do you have a Food Handlers Permit? (Yes/No) ")
 
+#Decision on whether to hire, interview, or deny you
 if work == "Yes" and permit == "Yes":
     print("We here at Chick-Fil-A would love to hire you!")
     
@@ -24,3 +27,4 @@ elif work == "No" and permit == "Yes":
     
 elif work == "No" and permit == "No":
     print("Sorry but you don't have what we need at the moment.")
+
